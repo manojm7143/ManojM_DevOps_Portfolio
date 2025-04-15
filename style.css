@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background: #20232a;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  nav h1 {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  nav ul li a:hover {
+    color: #61dafb;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background: #282c34;
+    color: white;
+  }
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .card {
+    background: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .chips span {
+    background: #0077cc;
+    color: white;
+    margin: 0.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+  }
+  
+  .projects {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .project-card {
+    background: #f0f0f0;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .project-card:hover {
+    transform: scale(1.03);
+    background: #e2eaff;
+  }
+  .project-card img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #20232a;
+    color: white;
+    margin-top: 2rem;
+  }
+  
