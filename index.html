@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manoj M Protfolio</title>
+    <title>Your Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,15 +16,20 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="profile-photo">
-            <img src="profile.jpg" alt="Your Profile Photo">
-        </div>
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I’m Manoj M, a passionate DevOps Engineer with a focus on cloud technologies, automation, and CI/CD pipelines. I enjoy solving problems and building efficient systems!</p>
-        I’ve worked with AWS, Kubernetes, Jenkins, and Terraform, and I am always learning about the latest tools and technologies in DevOps.</p>
+        <div class="container">
+            <div class="profile">
+                <img src="profile.jpg" alt="Your Profile Photo">
+            </div>
+            <div class="about-info">
+                <h2>About Me</h2>
+                <p>Hi, I’m [Your Name], a passionate DevOps Engineer with a focus on cloud technologies, automation, and CI/CD pipelines. I enjoy solving problems and building efficient systems!</p>
+                <button id="revealMore">Learn More</button>
+                <p id="moreInfo" class="hidden">I’ve worked with AWS, Kubernetes, Jenkins, and Terraform, and I am always learning about the latest tools and technologies in DevOps.</p>
+            </div>
+        </div>
     </section>
 
     <section id="projects">
@@ -40,15 +45,13 @@
                 <p>Brief description of project 2.</p>
                 <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
             </div>
-            <!-- Add more project cards as needed -->
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="manojm7143@gmail.com" target="_blank">manojm7143@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/manojm2408" target="_blank">https://www.linkedin.com/in/manojm2408</a></p>
-        <p>github: <a href="https://github.com/manojm7143" target="="_blank">https://github.com/manojm7143</a></p>
+        <p>Email: your-email@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">your-profile</a></p>
     </section>
 
     <script src="scripts.js"></script>
